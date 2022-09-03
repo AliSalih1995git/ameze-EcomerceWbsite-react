@@ -10,4 +10,7 @@
 6.Add routing
 7.Create Node.js Server
 8.Fetch Products from Backend(axios)
+9.Manage State by Reducer Hook
+10.Add bootstrap UI framework
+11.Create Product and Rating Component
 
