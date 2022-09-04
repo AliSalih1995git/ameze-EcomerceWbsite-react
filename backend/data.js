@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Ali',
+      email: 'admin@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Salih',
+      email: 'salih@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id:'1',
+      //_id:'1',
       name: ' Nike slim shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -14,7 +30,7 @@ const data = {
       description: 'High Quality shirts',
     },
     {
-      _id:'2',
+      //_id:'1',
       name: ' Adidas fit shirt',
       slug: 'adidS-fit-shirt',
       category: 'Shirts',
@@ -27,7 +43,7 @@ const data = {
       description: 'High Quality shirts',
     },
     {
-      _id:'3',
+      //_id:'1',
       name: ' Nike slim Pant',
       slug: 'nike-slim-pant',
       category: 'Pants',
@@ -40,17 +56,17 @@ const data = {
       description: 'High Quality Pants',
     },
     {
-      _id:'4',
+      //_id:'1',
       name: ' Adidas fit shirt',
       slug: 'adidas-fit-shirt',
       category: 'Shirts',
       image: '/images/p4.jpg',
-      price: '100',
+      price: '125',
       countInStock: 5,
       brand: 'puma',
       rating: 4.5,
       numReviews: 10,
-      description: 'High Quality shirts',
+      description: 'High Quality Pants',
     },
   ],
 };

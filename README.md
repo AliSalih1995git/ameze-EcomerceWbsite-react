@@ -16,4 +16,11 @@
 12.Create Product Details Screen
 15.Create Loding and Message Component
 16.Create Cart Screen
+17.Complete Cart screen
+18.Create Signin Screen
+19.Connect To MongoDB Database
+20.seedSample data
+21.seed sample user
+22.Create signin backend Api
+
 
