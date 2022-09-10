@@ -45,7 +45,7 @@ function CartScreen() {
       <h1>Shopping Cart</h1>
       <Row>
         <Col md={8}>
-          {cartItems.length === 0 ? (
+          {cartItems.length === 0 ? ( 
             <MessageBox>
               Cart is empty.<Link to="/">Go Shopping</Link>
             </MessageBox>
