@@ -35,7 +35,7 @@ function CartScreen() {
   };
 
   const checkoutHandler = ()=>{
-    navigate('/signin? redirect=/shopping')
+    navigate('/signin?redirect=/shipping')
   }
   return (
     <div>
@@ -114,7 +114,7 @@ function CartScreen() {
                   </h3>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <div calssName="d-grid">
+                  <div className="d-grid">
                     <Button
                       type="button"
                       variant="primary"
