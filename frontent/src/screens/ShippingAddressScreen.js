@@ -31,7 +31,7 @@ function ShippingAddressScreen() {
     e.preventDefault();
     ctxDispatch({
       type: 'SAVE_SHIPPING_ADDRESS',
-      paylosd: {
+      payload: {
         fullName,
         address,
         city,

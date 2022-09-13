@@ -24,6 +24,11 @@
 22.Create signin backend api
 23.Complete Signin backend api
 24.Create Shipping Screen
-25.
+25.create Signup screen
+26.implement select payment method screen
+27.create place order screen
+28.implement place order action
+29.Create order screen
+30.
 
 
