@@ -30,6 +30,13 @@
 28.implement place order action
 29.Create order screen
 30.Pay order by PayPal
-31.
+31.Display OrderHistory
+32.Create ProfileScreen
+33.Add sidebar and SearchBox
+34.Create searchScreen
+35.Create Admin menu
+36.create DashboardScreen
+37.
+
 
 
