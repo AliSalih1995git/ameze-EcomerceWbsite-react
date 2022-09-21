@@ -37,7 +37,10 @@
 35.Create Admin menu
 36.create DashboardScreen
 37.Product Management
-38.
+38.Create Product
+39.Create Edit Product
+40.impliment Update product
+41.
 
 
 
