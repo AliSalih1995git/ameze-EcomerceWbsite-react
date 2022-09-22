@@ -40,7 +40,10 @@
 38.Create Product
 39.Create Edit Product
 40.impliment Update product
-41.
+41.Image upload to cloudinary
+42.Delete Product
+43.Create orderlistsreen
+44.
 
 
 
